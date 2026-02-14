@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Joker Sport App - Sports Schedule Application">
+    <meta name="keywords" content="Joker Sport, Privacy Policy, Data Security">
+    <title>Privacy Policy - Joker Sport App</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOJSURBVFiFtZdNiE1RGMd/58y8mZnXvJlhZsxkQWFhQbKwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGw==">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            overflow: hidden;
+            animation: slideIn 0.8s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.05) 10px,
+                rgba(255,255,255,0.05) 20px
+            );
+            animation: slide 20s linear infinite;
+        }
+        
+        @keyframes slide {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .last-updated {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            border: 3px solid #ff6b9d;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-right: 6px solid #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .highlight:hover {
+            transform: translateX(-5px);
+        }
+        
+        h2 {
+            color: #667eea;
+            margin: 40px 0 20px 0;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            position: relative;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #764ba2;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-right: 30px;
+        }
+        
+        li {
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 1px dotted #ddd;
+            transition: background 0.3s ease;
+        }
+        
+        li:hover {
+            background: rgba(102, 126, 234, 0.05);
+            padding-right: 10px;
+            border-radius: 5px;
+        }
+        
+        .security-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            margin: 10px 5px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .security-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .contact {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact::before {
+            content: '📧';
+            font-size: 3em;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            opacity: 0.1;
+        }
+        
+        .contact h2 {
+            color: white;
+            border-bottom: 3px solid white;
+            margin-top: 0;
+        }
+        
+        .footer {
+            background: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            color: #7f8c8d;
+            border-top: 3px solid #667eea;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin: 0 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        /* Print improvements */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            
+            .container {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+            
+            .header {
+                background: #f8f9fa !important;
+                color: black !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Privacy Policy</h1>
+            <div class="subtitle">Joker Sport App - Your Privacy is Our Priority</div>
+        </div>
+        
+        <div class="content">
+            <div class="last-updated">
+                <strong>📅 Last Updated: 25/09/2025</strong>
+                <br>
+                <small>Version 1.0.1 - Updated to comply with Samsung Galaxy Store and iOS requirements</small>
+            </div>
+
+            <div class="highlight">
+                <strong>🔒 Privacy Summary:</strong> 
+                Joker Sport App fully respects your privacy. We do not collect or share your personal information with any third party. All data is protected with advanced encryption and stored locally on your device.
+            </div>
+
+            <h2>🔍 Overview</h2>
+            <p>Welcome to the Joker Sport app. This policy explains how we handle your data and privacy when using our application. We are committed to protecting your privacy and ensuring the security of your data.</p>
+
+            <h2>📊 Information We Collect</h2>
+            <p>We collect the minimum information necessary to run the application efficiently:</p>
+            
+
+            <h2>🚫 Information We Never Collect</h2>
+            <div class="highlight">
+                <strong>We never collect this information:</strong>
+                <ul>
+                    <li>❌ Real name or personal information</li>
+                    <li>❌ Email address or phone numbers</li>
+                    <li>❌ Geographic location or GPS data</li>
+                    <li>❌ Contacts or personal photos</li>
+                    <li>❌ Passwords or financial information</li>
+                </ul>
+            </div>
+
+            <h2>🤝 Information Sharing</h2>
+            <p><strong>We do not sell or share your information with third parties</strong> except for the following limited cases:</p>
+            <ul>
+                <li><strong>Firebase Analytics:</strong> Anonymous statistics only to improve the app</li>
+                <li><strong>Google AdMob:</strong> Displaying relevant ads (without revealing your identity)</li>
+            </ul>
+
+            <h2>📱 Google AdMob Ads</h2>
+            <p>The app displays ads to support continuous development:</p>
+            <ul>
+                <li>We do not share your personal information with advertisers</li>
+                <li>Ads do not interfere with the user experience</li>
+            </ul>
+
+            <h2>⚖️ Your Rights as a User</h2>
+            <div class="highlight">
+                <strong>Your rights are always protected:</strong>
+                <ul>
+                    <li><span class="emoji">👁️</span> <strong>Transparency:</strong> Knowing exactly what we collect</li>
+                    <li><span class="emoji">🗑️</span> <strong>Deletion:</strong> Removing all data by uninstalling</li>
+                    <li><span class="emoji">⚙️</span> <strong>Control:</strong> Managing settings and permissions</li>
+                    <li><span class="emoji">📧</span> <strong>Communication:</strong> Asking questions and inquiries</li>
+                    <li><span class="emoji">🔒</span> <strong>Privacy:</strong> Full protection of information</li>
+                </ul>
+            </div>
+
+            <h2>💾 Local Storage</h2>
+            <p>Most app data is stored locally on your device and is not sent to our servers:</p>
+            <ul>
+                <li>App settings and user preferences</li>
+                <li>List of favorite teams and tournaments</li>
+                <li>Notification settings and theme</li>
+            </ul>
+
+            <h2>👶 Children's Protection</h2>
+            <p>The app is suitable for all ages with special protection for children:</p>
+            <ul>
+                <li>We do not collect information from children</li>
+                <li>Content is family-friendly and suitable for all ages</li>
+                <li>There are no social interaction features</li>
+            </ul>
+
+            <h2>🔄 Policy Updates</h2>
+            <p>We continuously develop our policy to ensure your protection:</p>
+            <ul>
+                <li>You will be notified of any important changes via the app</li>
+                <li>Minor updates will be published here directly</li>
+                <li>You can review the policy at any time</li>
+                <li>Continued use means you agree to the updates</li>
+            </ul>
+
+            <h2>🌍 International Compliance</h2>
+            <p>We are committed to international laws and standards:</p>
+            <div class="highlight">
+                <ul>
+                    <li><strong>GDPR (Europe):</strong> Personal data protection</li>
+                    <li><strong>COPPA (USA):</strong> Children's privacy protection</li>
+                    <li><strong>Google Play Policy:</strong> Google Play standards</li>
+                    <li><strong>Local Laws:</strong> Compliance with laws in your country</li>
+                </ul>
+            </div>
+
+        
+        <div class="footer">
+            <p>© 2025 Joker Sport - All Rights Reserved</p>
+            <p>Secure and trusted app for sports lovers <span class="emoji">⚽🏀🎾</span></p>
+        </div>
+    </div>
+</body>
+</html>
+
+
